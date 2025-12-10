@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+}
+
+header{
+    padding: 0 2rem 0 1rem;
+    height: 18vh;
+    box-sizing: border-box;
+    background-color:rgb(4, 75, 99) ;
+    
+   
+
+}
+
+
+/* menu de navigation */
+nav a{
+    color:white;
+    text-transform: capitalize;
+    text-decoration:none;
+    font-size: 1.2em;
+
+}
+
+/* listes à puces */
+li{
+    list-style: none;
+}
+
+/* nav */
+nav{
+    display:flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height:18vh;
+}
+
+ div ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
+
+
+* , *::after{
+    box-sizing: border-box;
+}
+
+.sec1{
+
+    height: 40vh;
+    font-size: 2.2em;
+      background-color:#00ced1;
+     color: white;
+
+}
+
+button{
+     background-color:#007fff;
+     padding: 1rem;
+     border-radius: 10%;
+}
+
+button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size:1rem;
+}
+
+.sec1 img{
+    height: 20vh;
+    aspect-ratio: 1/1;
+}
+
+.arrangementbutton{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+}
+
+.enfant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 15vh;
+}
+
+.sec2{
+    height: 70vh;
+    border-top:10px solid white;
+    color: white;
+      background-color:#00ced1;
+
+    
+    
+}
+
+
+
+.sec2 img{
+  height: 40vh;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.leflex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    gap: 1rem;
+}
+
+.nouveau{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    width: 60vw;
+}
+
+
+.nouveau p{
+    max-width: 100vw;
+    max-height: 100vh;
+    font-size: 1.5em;
+    padding: 1rem 0 0 0 ;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+    padding-top: 2vh;
+    color: black;
+}
+
+
+.sec3{
+    height: 58vh;
+    background-color:#00ced1;
+     border-top:10px outset white ;
+    
+    
+    
+}
+
+.ma{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.masec3{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 15rem;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 1rem;
+}
+.lefils{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    border-radius: 5%;
+    color:black;
+}
+
+.lefils a{
+     display: inline-block;
+     text-decoration: none;
+     text-transform: capitalize;
+     color:white;
+     font-size: 1em;
+     border-radius: 20%;
+     width: 8vw;
+     font-weight: bold;
+     width:20%;
+    background-color: #007fff;
+
+}
+
+
+
+.sec4{
+    background-color:#00ced1;
+    height: 60vh;
+     box-sizing: border-box; 
+      border-top:10px outset white ;
+    
+
+}
+
+.divcom{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+    gap: 5rem;
+    height: 40vh;
+}
+
+.sec4 h2 {
+   padding-bottom: 2rem;
+}
+.com{
+
+    
+    border-radius: 5%;
+    padding: 0 2rem 0 2rem;
+    height: 30vh;
+    background-color: azure;
+}
+
+.barrefat{
+    background-color: gray;
+    height: 2.7vh;
+    border-radius: 10px;
+
+    
+}
+.petit1, .petit2,.petit3,.petit4,.petit5,.petit5,.petit6,.petit7{
+    background-color: green;
+    height: 2.7vh;
+    border-radius: 10px;
+}
+
+.petit1{
+    width: 65%;
+}
+
+
+.petit2{
+    width: 58%;
+}
+
+
+
+.petit3{
+    width: 85%;
+}
+
+
+
+.petit4{
+    width: 95%;
+}
+
+
+
+.petit5{
+    width: 60%;
+}
+
+
+
+.petit6{
+    width: 50%;
+}
+
+
+
+
+.petit7{
+
+    width: 98%;
+}
+
+
+
+
+.divcom p{
+    font-size: 1.2em;
+    margin-bottom: 1px;
+}
+
+.divcom h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
+
+footer{
+     background-color:rgb(4, 75, 99) ;
+    border-top:10px outset white ;
+    
+   
+}
+
+footer button{
+    color: white;
+    font-weight: bold;
+}
+
+form{
+    display: grid;
+    place-items: center;
+}
+
+label{
+    color: white;
+}
+
+.centreur{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+
+}
+
+.centrer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.centrer input{
+    width: 18rem;
+    height: 3vh;
+    border-radius: 10px;
+    border: 2px solid aqua;
+}
+
+.mi{
+    width: 38rem;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    height:3vh;
+}
+
+textarea{
+    border-radius: 10px;
+    border: 2px solid aqua;
+}
+
+.lab3{
+ position: relative;
+ left: -16.5rem;
+
+}
+.monpara2{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom:1rem ;
+}
+
+
+.le{
+    padding-top: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem 0 3rem;
+    height: 8vh;
+    flex-wrap: wrap;
+}
+
+form button{
+    margin-bottom: 3rem;
+}
+
+
+/* animation css */
+
+.sec3{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 3s ease;
+}
+
+.section-visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.sec4{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 3s ease;
+}
+
+.section{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+.sec1{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 1s ease;
+}
+
+.section1{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+
+.sec2{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 0.5s ease;
+}
+
+.section2{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+/* responsivité */
+
+
+
+@media  screen and (max-width:600px) {
+    
+
+
+     
+.divcom{
+    display: grid;
+    grid-template-columns: 20rem;
+    gap: 2rem;
+    align-content: flex-start;
+    height: 68vh;
+}
+
+.sec4{
+    height: 82vh;
+}
+    
+}
+
+@media  screen and (max-width:996px) {
+        nav a{
+        font-size:1em ;
+        gap: 1rem;
+    }
+
+    .sec1 {
+        font-size:1.2em;
+
+    }
+    
+    .sec2 p{
+        font-size: 1.2em;
+    }
+
+    .masec3{
+        display: grid;
+         grid-template-rows: 12rem;
+        grid-template-columns: 12rem 12rem 12rem; 
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width:700px){
+     div ul{
+        display:flex;
+        flex-direction: column;
+        gap:0.2rem;
+    }
+
+    .sec1{
+        font-size: 1em;
+        height: 40vh;
+    }
+    .nouveau{
+        width: 100%;
+    }
+
+   .sec2 img{
+        display: none;
+    }
+     
+    .arrangementbutton{
+        gap:1rem;
+    }
+
+
+    .button a{
+        font-size: small;
+        
+    }
+
+    .nouveau p{
+        font-size: 1em;
+       
+       
+    }
+
+    .sec2{
+        height:55vh;
+    }
+
+    .leflex2{
+        height: 40vh;
+        padding-left: 0.7rem;  
+    }
+
+    
+button{
+     background-color: #007fff;
+     padding: 0.2rem;
+    
+}
+ 
+.masec3{
+    display: grid;
+    grid-template-columns: 20rem;
+    grid-template-rows:8rem 8rem 8rem;
+    align-content:space-around; 
+    height: 65vh;
+} 
+
+
+.sec3{
+    height:78vh;
+}
+
+.ma{
+    height: 67vh;
+}
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:365px){
+
+     nav a{
+        font-size: 0.9em;
+     }
+
+     .style{
+        height:18vh;
+    }
+
+    .arrangementbutton{
+        gap:1rem;
+    }
+    
+    
+.sec1 img{
+    height: 20vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    background:linear-gradient(90deg,#007fff,#00ced1);
+    border: 5px solid white;
+}
+
+.sec1{
+    font-size: 1.2em;
+}
+
+
+button{
+     padding: 0.2rem;
+}
+button a{
+    font-size: small;
+    }
+ 
+ .leflex2{
+    height:41vh;
+ }
+
+ .nouveau p{
+
+    font-size: 1em;
+ }
+
+ .sec3 a{
+    width:20%;
+    background-color: #007fff;
+ }
+
+ 
+
+
+}
+
+
+
+@media screen and (max-width:679px){
+    
+.centrer input{
+    width: 8rem;
+    height: 3vh;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    font-size: 16px;
+     box-sizing: border-box;
+}
+
+
+
+.mi{
+    width: 19rem;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    height:3vh;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea{
+    border-radius: 10px;
+    width: 20rem;
+    font-size: 16px;
+    box-sizing: border-box;
+
+
+    
+}
+
+
+.le{
+   display: none;
+}
+
+
+.monpara2{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom:1rem ;
+}
+
+
+.lab3{
+ position: relative;
+ left: -7rem;
+
+}
+
+
+
+
+}
